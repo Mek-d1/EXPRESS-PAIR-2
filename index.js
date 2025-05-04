@@ -7,7 +7,7 @@ import Baileys, {
 import cors from 'cors'
 import express from 'express'
 import fs from 'fs'
-import PastebinAPI from 'pastebin-ts')
+import PastebinAPI from 'pastebin-ts'
 import path, { dirname } from 'path'
 import pino from 'pino'
 import { fileURLToPath } from 'url'
