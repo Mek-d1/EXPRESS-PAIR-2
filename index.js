@@ -130,12 +130,12 @@ async function startnigg(phone) {
 
           const output = await pastebin.createPasteFromFile(
             `${sessionFolder}/creds.json`,
-            'JOEL~XMD~',
+            'TEST-TEST~',
             null,
             1,
             'N'
           )
-          const sessi = 'JOEL~XMD~' + output.split('https://pastebin.com/')[1]
+          const sessi = 'TEST-TRST~' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
