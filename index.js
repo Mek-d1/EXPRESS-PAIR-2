@@ -7,11 +7,11 @@ import Baileys, {
 import cors from 'cors'
 import express from 'express'
 import fs from 'fs'
-import { PastebinAPI } from 'pastedeno'
+import { Pastebin } from 'pastedeno'
 import path, { dirname } from 'path'
 import pino from 'pino'
 import { fileURLToPath } from 'url'
-let pastebin = new PastebinAPI('JamMGZ1OJEKlg1ZjwDT6hIa6kzPEXRXk')
+let pastebinAPI = new Pastebin('JamMGZ1OJEKlg1ZjwDT6hIa6kzPEXRXk')
 
 const app = express()
 
